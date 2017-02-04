@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: The variables (possible digits for peers) are reduced by elimating digits from the set of possible box values that are out of question due to the fact that a set of two boxes shares a pair of possible digits, therefore rendering those digits impossible as values for their peers. This reduction of variables is constraint propagation. 
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: By adding the two diagonals as units to the unitlist additional constraints are enforced reducing variables while solving the puzzle. 
 
 ### Install
 
