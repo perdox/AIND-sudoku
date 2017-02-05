@@ -29,9 +29,9 @@ If not, please see how to download pygame [here](http://www.pygame.org/download.
 * `PySudoku.py` - Do not modify this. This is code for visualizing your solution.
 * `visualize.py` - Do not modify this. This is code for visualizing your solution.
 
-### Visualizing
+### Visualization
 
-To visualize your solution, please only assign values to the values_dict using the ```assign_values``` function provided in solution.py
+![Visualization](https://github.com/perdox/AIND-sudoku/raw/master/visualization.gif)
 
 ### Data
 
