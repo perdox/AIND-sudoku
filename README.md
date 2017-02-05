@@ -13,26 +13,17 @@ A: By adding the two diagonals as units to the unitlist additional constraints a
 
 This project requires **Python 3**.
 
-We recommend students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
-Please try using the environment we provided in the Anaconda lesson of the Nanodegree.
-
-##### Optional: Pygame
-
-Optionally, you can also install pygame if you want to see your visualization. If you've followed our instructions for setting up our conda environment, you should be all set.
-
-If not, please see how to download pygame [here](http://www.pygame.org/download.shtml).
-
 ### Code
 
-* `solutions.py` - You'll fill this in as part of your solution.
-* `solution_test.py` - Do not modify this. You can test your solution by running `python solution_test.py`.
-* `PySudoku.py` - Do not modify this. This is code for visualizing your solution.
-* `visualize.py` - Do not modify this. This is code for visualizing your solution.
+* `solutions.py` - Main code for sudoku solver using only choice, elimnation, naked twins and search algorithms.
+* `solution_test.py` - Do not modify this. You can test the solution by running `python solution_test.py`.
+* `PySudoku.py` - Do not modify this. This is code for visualizing the solution.
+* `visualize.py` - Do not modify this. This is code for visualizing the solution.
 
 ### Visualization
 
-![Visualization](https://github.com/perdox/AIND-sudoku/raw/master/visualization.gif)
+![Visualization](https://github.com/perdox/AIND-sudoku/raw/master/images/visualization.gif)
 
 ### Data
 
-The data consists of a text file of diagonal sudokus for you to solve.
+The data consists of a text file of diagonal sudokus.
